@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace baitap3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter width: 4");
+            float width = 4;
+            Console.WriteLine("Enter height: 5");
+            float height = 5;
+            float area = width * height;
+            Console.WriteLine("Area is: " + area);
+        }
+    }
+}
